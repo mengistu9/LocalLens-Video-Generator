@@ -1,0 +1,30 @@
+# locallens.py — requirements.txt
+# The Wanderer Chronicles — Episode 1
+
+# ── Deep Learning ──────────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ── Diffusion / Transformers ───────────────────────────────────────────────
+diffusers>=0.21.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# ── Optional: faster attention (CUDA only) ─────────────────────────────────
+# xformers>=0.0.20   # uncomment if you have a CUDA GPU
+
+# ── Computer Vision ────────────────────────────────────────────────────────
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ── Text-to-Speech ─────────────────────────────────────────────────────────
+pyttsx3>=2.90
+
+# ── FFmpeg Python bindings ─────────────────────────────────────────────────
+ffmpeg-python>=0.2.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+huggingface-hub>=0.16.0
+safetensors>=0.3.0
